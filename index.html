@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ModularRobotAR</title>
-  </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/1906e013a5c7e1e9e646a3ce3d710117.js"></script>
-    <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/da3181e24e5fb4ad488ba3faeed2d1a7.data.unityweb",
-        frameworkUrl: "Build/7bd8d20a8f207f9ecad7a0a7670f3c6c.js.unityweb",
-        codeUrl: "Build/9777cb704ec4e304130ffcc29058c398.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "TUM",
-        productName: "ModularRobotAR",
-        productVersion: "0.1",
-      });
-    </script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | ModularRobotAR</title>
+</head>
+
+<body style="text-align: center">
+  <canvas id="unity-canvas" style="width: 100%; height: 600px; background: #231F20"></canvas>
+  <script src="Build/1906e013a5c7e1e9e646a3ce3d710117.js"></script>
+  <script>
+    createUnityInstance(document.querySelector("#unity-canvas"), {
+      dataUrl: "Build/22852767cbc2237315e506fff21fd9b0.data.unityweb",
+      frameworkUrl: "Build/7bd8d20a8f207f9ecad7a0a7670f3c6c.js.unityweb",
+      codeUrl: "Build/7f6b3d5451172b742bb9be2d7fdb8d09.wasm.unityweb",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "TUM",
+      productName: "ModularRobotAR",
+      productVersion: "0.1",
+    });
+  </script>
+</body>
+
 </html>
